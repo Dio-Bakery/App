@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WaveActivity"
+    android:background="@drawable/wave"
+    android:orientation="vertical"
+    >
+
+
+
+<!--huawei-->
+    <com.example.nightelf.MySurfaceView
+        android:id="@+id/IU"
+        android:layout_width="310dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="160dp"
+        android:layout_gravity="center"
+        />
+
+<!--vivo-->
+<!--    <com.example.nightelf.MySurfaceView-->
+<!--        android:id="@+id/IU"-->
+<!--        android:layout_width="310dp"-->
+<!--        android:layout_height="170dp"-->
+<!--        android:layout_marginTop="110dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        />-->
+    <!--<com.example.deeson.mysurfaceview.MySurfaceViewForPath-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+
+<!--huawei-->
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/lamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_marginTop="54dp"
+        android:id="@+id/fire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#03A9F4"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="89dp"
+        >
+
+        <Button
+            android:id="@+id/change"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:text="居家模式"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:background="#12D0F1"
+            android:textColor="#FFFFFF"
+            android:onClick="changeMode"
+            />
+
+        <ImageButton
+            android:id="@+id/Audio"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="23dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/play"
+            />
+    </LinearLayout>
+
+<!--    vivo-->
+<!--    <TextView-->
+<!--        android:layout_marginTop="34dp"-->
+<!--        android:id="@+id/lamp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#03A9F4"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:id="@+id/fire"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#03A9F4"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20dp"-->
+<!--        />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="73dp"-->
+<!--        >-->
+
+<!--        <Button-->
+<!--            android:id="@+id/change"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:text="居家模式"-->
+<!--            android:textSize="18dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:background="#12D0F1"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:onClick="changeMode"-->
+<!--            />-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/Audio"-->
+<!--            android:layout_width="77dp"-->
+<!--            android:layout_height="77dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:layout_marginLeft="23dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:src="@drawable/play"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+</LinearLayout>

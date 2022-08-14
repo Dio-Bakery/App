@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    >
+<!--huawei-->
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="399dp"
+        android:layout_marginBottom="25dp"
+        android:hint="Student ID"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:textColor="#FF9800" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="9dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FF9800"
+        />
+
+    <ImageButton
+        android:id="@+id/changeMode"
+        android:layout_width="47dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="45dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        android:onClick="register"
+
+        />
+
+    <Button
+        android:id="@+id/client_submit"
+        android:layout_width="306dp"
+        android:layout_height="49dp"
+
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="0dp"
+        android:layout_gravity="center"
+        android:background="#FF9800"
+        android:text="登录"
+        android:textColor="#4E342E"
+             />
+
+<!--vivo-->
+<!--    <EditText-->
+<!--        android:id="@+id/editTextNumber"-->
+<!--        android:layout_width="290dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="329dp"-->
+<!--        android:layout_marginBottom="25dp"-->
+<!--        android:hint="Student ID"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:inputType="number"-->
+<!--        android:textColor="#FF9800" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextPassword"-->
+<!--        android:layout_width="290dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="9dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginBottom="9dp"-->
+<!--        android:hint="Password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:textColor="#FF9800"-->
+<!--        />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/changeMode"-->
+<!--        android:layout_width="47dp"-->
+<!--        android:layout_height="27dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:layout_marginLeft="45dp"-->
+<!--        android:background="@android:color/transparent"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:onClick="register"-->
+
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/client_submit"-->
+<!--        android:layout_width="306dp"-->
+<!--        android:layout_height="49dp"-->
+
+<!--        android:layout_marginBottom="160dp"-->
+<!--        android:layout_marginLeft="0dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="#FF9800"-->
+<!--        android:text="登录"-->
+<!--        android:textColor="#4E342E"-->
+<!--        />-->
+</LinearLayout >

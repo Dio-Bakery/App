@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">见微知著</string>
+    <string name="button">Button</string>
+    <!--    板端为服务器socket-->
+    <!-- commonPort  commonHost 登录，注册，警报-->
+<!--    <string name="commonHost">121.37.94.231</string>-->
+<!--    <string name="commonHost">192.168.43.77</string>-->
+<!--    <string name="commonPort">7770</string>-->
+
+<!--    &lt;!&ndash; WavePort  waveHost 波形&ndash;&gt;-->
+<!--    <string name="waveHost">192.168.43.77</string>-->
+<!--    <string name="wavePort">8880</string>-->
+
+<!--    &lt;!&ndash;    传感器&ndash;&gt;-->
+<!--    <string name="sensorHost">192.168.43.77</string>-->
+<!--    <string name="sensorPort">8880</string>-->
+
+<!--    &lt;!&ndash;   双工通信&ndash;&gt;-->
+<!--    &lt;!&ndash;    aoPort aoHost  手机录制并发送 &ndash;&gt;-->
+<!--    <string name="aoHost">192.168.43.77</string>-->
+<!--    <string name="aoPort">8090</string>-->
+
+<!--    &lt;!&ndash;    aiPort aiHost  手机接收并播放  io是针对RV1109说的 &ndash;&gt;-->
+<!--    <string name="aiHost">192.168.43.77</string>-->
+<!--    <string name="aiPort">8091</string>-->
+
+    <!-- commonPort  commonHost 登录，注册，警报-->
+    <string name="commonHost">121.37.94.231</string>
+    <string name="commonPort">8888</string>
+
+    <!-- WavePort  waveHost 波形-->
+    <string name="waveHost">121.37.94.231</string>
+    <string name="wavePort">8880</string>
+
+    <!--    传感器-->
+    <string name="sensorHost">121.37.94.231</string>
+    <string name="sensorPort">8088</string>
+
+<!--    语音选择-->
+    <string name="audioControlHost">192.168.43.77</string>
+    <string name="audioControlPort">8092</string>
+
+    <!--   双工通信-->
+    <!--    aoPort aoHost  手机录制并发送 -->
+    <string name="aoHost">192.168.43.77</string>
+    <string name="aoPort">8090</string>
+
+    <!--    aiPort aiHost  手机接收并播放  io是针对RV1109说的 -->
+    <string name="aiHost">192.168.43.77</string>
+    <string name="aiPort">8091</string>
+
+
+</resources>
